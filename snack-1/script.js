@@ -3,3 +3,17 @@
 
 const userNumber = [];
 
+while (sum < 50) {
+    // richiesta numeri
+    let userQuestion = prompt('Inserisci un numero: ');
+    // condizione
+    if userQuestion {
+        userNumber.push(userQuestion);
+        sum += userQuestion;
+    } else {
+        console.log('Hai inserito dei caratteri invalidi')
+    }
+}
+
+console.log('I numeri inseriti sono: ', userNumber);
+console.log('La somma dei numeri inseriti è uguale a ', sum);
