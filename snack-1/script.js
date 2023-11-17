@@ -12,7 +12,7 @@ while (sum < 50) {
     // condizione
     if (!isNaN(numbers)) {
         userNumber.push(numbers);
-        sum += numbers;
+        sum += userQuestion;
     } else {
         console.log('Hai inserito dei caratteri invalidi')
     }
